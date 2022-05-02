@@ -1,0 +1,268 @@
+/* General */
+
+
+* {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+
+
+.btn-dark{
+    border-color: #28a745;
+    /*
+    peguei na net
+    */
+    border-radius: 20px;
+    box-shadow: 0px 1px 2px 0 rgb(11 28 19 / 5%), 0px 3px 8px 0 rgb(11 28 19 / 5%);
+    background-color: #28a745;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: -0.16px;
+    text-align: center;
+  
+}
+
+#search-container h1 {
+    font-size: 60px;   
+}
+
+#imageLogo{
+text-align: center;
+padding-top: 1x;
+padding-bottom: 1px;
+position: static;
+padding-top: 50px;
+padding-bottom: 50px;
+
+}
+
+
+
+body {
+    min-height: 100vh;
+    padding-bottom: 100px;
+    position: relative;
+    background: #dfd8d8;
+    /*background: radial-gradient(
+        circle,
+        rgba(63, 94, 251, 1) 0%,
+        rgba(252, 70, 107, 1) 100%
+    );*/
+    font-family: "Courier New";
+}
+
+#cards-container #voltar {
+    color: rgb(255, 255, 255);
+    background-color: #28a745;
+    border-radius: 100px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+    
+}
+
+
+#cards-container {
+    color: #212121;
+    text-align: center;
+}
+
+.row {
+    margin: 0;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+/* Search Container*/
+#search-container {
+    background-size: cover;
+    background-position: center;
+    height: 1px;
+    padding-bottom: 1px;
+    text-align: center;
+    margin-bottom: 0px;
+    font-family: "Didot";
+}
+
+#search-container h1 {
+    color: #212121;
+    margin-bottom: 50px;
+    font-weight: 900;
+    
+}
+
+#search-container form {
+    width: 65%;
+    margin: 0 auto;
+    
+    
+}
+
+/* Event List */
+#events-container {
+    padding: 20px;
+    text-align: center;
+}
+
+#events-container h2 {
+    color: #212121;
+    padding-top: 60px ;
+    
+}
+
+#events-container .subtitle {
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+#events-container .card {
+    flex: 1 1 24%;
+    max-width: 25%;
+    border-radius: 10px;
+    padding: 0;
+    margin: 0.5%;
+}
+
+#events-container img {
+    max-height: 150px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card .card-date {
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+}
+
+.card .card-title {
+    color: #212121;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.card-participants {
+    font-size: 14px;
+    color: #fffefe;
+}
+
+/* Event create page */
+#event-create-container {
+    padding: 30px;
+}
+
+#event-create-container label {
+    font-weight: bolder;
+}
+
+#event-create-container input,
+#event-create-container select,
+#event-create-container textarea {
+    font-size: 12px;
+}
+
+/* Event pag*/
+#img-container,
+#info-container {
+    margin-top: 30px;
+}
+
+#img-container img {
+    border-radius: 10px;
+}
+
+#info-container h1 {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+#info-container p {
+    margin: 0;
+    font-size: 14px;
+    display: flex;
+}
+
+#info-container h3,
+#description-container h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#info-container ion-icon {
+    font-size: 20px;
+    color: #f2a340;
+    margin-right: 20px;
+}
+
+#info-container #event-submit {
+    margin: 20px 0;
+}
+
+#itens-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+#itens-list li {
+    display: flex;
+}
+
+#description-container {
+    margin-top: 30px;
+}
+
+/* Dashboard*/
+.dashboard-title-cantainer {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.dashboard-events-container th {
+    width: 25%;
+}
+
+.dashboard-events-container form {
+    display: inline-block;
+  
+}
+
+/* Edit Page*/
+.img-preview {
+    width: 100px;
+    margin-top: 20px;
+}
+
+ /* Footer */
+ 
+footer {
+    text-align: center;
+    background-color: #28a745;;
+    color: #fff;
+    padding: 20px;
+    position: absolute;
+    bottom:0;
+    width: 100%;
+}
+
+#footerImagens img{
+    padding-left: 100px;
+    
+}
+
+footer p {
+    margin-bottom: 0;
+    text-align: center;
+    padding-left: 100x;
+}
+
+/* Header*/
+header{
+    text-align: center;
+    color: #fff;
+    padding: 8px;
+    background-color: #28a745;
+}
+
+label{
+    display: block;
+}
